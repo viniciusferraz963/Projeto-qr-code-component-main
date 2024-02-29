@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:  "Outfit", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap');
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: var(--Lightgray);
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    margin: 25px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    text-justify: justify;
+    margin: 40px;
+    text-indent: 25px;
+}
+
+p {
+    margin: 40px;
+    text-indent: 15px;
+    color: var(--Grayishblue);
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+}
+
+
